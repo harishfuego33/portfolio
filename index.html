@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaQuery.css">
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">harish kumar S</div>
+        <div>
+            <ul class='nav-link'>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Expirence">Expirence</a></li>
+                <li><a href="#Project">Project</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">harish kumar S</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-link">
+                <li><a href="#About" onclick="togglemenu()">About</a></li>
+                <li><a href="#Expirence" onclick="togglemenu()">Expirence</a></li>
+                <li><a href="#Project" onclick="togglemenu()">Project</a></li>
+                <li><a href="#Contact" onclick="togglemenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section class="profile">
+        <div class="section_profilePic-constainer">
+            <img src="./assets/profile-pic.png" alt="harishProfilePicure">
+        </div>
+        <div class="section-text">
+            <p class="section-text-p1">Hello I'm</p>
+            <h1 class="title">Harish</h1>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
